@@ -2,8 +2,9 @@ module.exports = {
   tabWidth: 4,
   printWidth: 120,
   proseWrap: 'preserve',
-  semi: false,
+  semi: true,
   trailingComma: 'es5',
+  arrowParens: 'always',
   singleQuote: true,
   overrides: [
     {
@@ -22,4 +23,4 @@ module.exports = {
       },
     },
   ],
-}
+};
