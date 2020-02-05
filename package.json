@@ -1,6 +1,7 @@
 {
   "name": "@equipindustry/prettierrc",
   "version": "0.0.0",
+  "private": false,
   "license": "MIT",
   "description": "Prettier config for TypeScript projects at EquipIndustry",
   "main": "prettier.config.js",
@@ -39,5 +40,11 @@
     "pretty-quick": "^2.0.1",
     "semantic-release": "^17.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
