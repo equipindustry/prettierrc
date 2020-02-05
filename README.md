@@ -16,7 +16,7 @@ npm install --save-dev @equipindustry/prettierrc
 Then add this `prettier.config.js` to the project:
 
 ```js
-module.exports = require('@equipindustry/prettierrc')
+module.exports = require('@equipindustry/prettierrc');
 ```
 
 ## Making changes
