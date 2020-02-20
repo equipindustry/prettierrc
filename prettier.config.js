@@ -19,7 +19,6 @@ module.exports = {
         parser: 'json5',
         quoteProps: 'preserve',
         singleQuote: false,
-        trailingComma: 'all',
       },
     },
   ],
