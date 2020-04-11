@@ -8,13 +8,17 @@ This file uses change log convention from `keep a CHANGELOG`_.
 `Unreleased`_
 +++++++++++++
 
+`0.2.0`_ - 2020-04-11
+++++++++++++++++++++++
+
 `0.1.1`_ - 2020-02-20
 ++++++++++++++++++++++
 
 `0.1.0`_ - 2020-02-05
 ++++++++++++++++++++++
 
-.. _`Unreleased`: https://github.com/equipindustry/prettierrc/compare/0.1.1...HEAD
+.. _`Unreleased`: https://github.com/equipindustry/prettierrc/compare/0.2.0...HEAD
+.. _`0.2.0`: https://github.com/equipindustry/prettierrc/compare/0.1.1...0.2.0
 .. _`0.1.1`: https://github.com/equipindustry/prettierrc/compare/0.1.0...0.1.1
 .. _`0.1.0`: https://github.com/equipindustry/prettierrc/compare/0.0.0...0.1.0
 .. _`0.0.0`: https://github.com/equipindustry/prettierrc/compare/0.0.0...0.0.0
