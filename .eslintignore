@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+out/
+storybook-static/
+__snapshots__/
+prettier.config.js
+jest.config.js
