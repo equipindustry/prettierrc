@@ -1,9 +1,9 @@
 module.exports = {
-  tabWidth: 4,
-  printWidth: 120,
+  tabWidth: 2,
+  printWidth: 100,
   proseWrap: 'preserve',
   semi: true,
-  trailingComma: 'es5',
+  trailingComma: 'all',
   arrowParens: 'always',
   singleQuote: true,
   overrides: [
@@ -16,9 +16,34 @@ module.exports = {
     {
       files: '{**/.vscode/*.json,**/tsconfig.json,**/tsconfig.*.json}',
       options: {
-        parser: 'json5',
+        parser: 'json',
         quoteProps: 'preserve',
         singleQuote: false,
+      },
+    },
+    {
+      files: '*.md',
+      options: {
+        parser: 'markdown',
+        printWidth: 100,
+        proseWrap: 'never',
+        semi: false,
+        trailingComma: 'none',
+      },
+    },
+    {
+      files: '*.mdx',
+      options: {
+        printWidth: 100,
+        proseWrap: 'never',
+        semi: false,
+        trailingComma: 'none',
+      },
+    },
+    {
+      files: '*.{sass,scss}',
+      options: {
+        parser: 'scss',
       },
     },
   ],
